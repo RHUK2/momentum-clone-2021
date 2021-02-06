@@ -17,18 +17,20 @@
 .name__form {
 }
 .name__form > input {
+  width: 25vw;
   padding: 15px;
   font-size: 1.5vw;
-  background-color: transparent;
   border: none;
   border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.3);
   box-shadow: 0px 0px 10px white;
   outline: none;
   color: white;
 }
 .name__form > input::placeholder {
-  color: white;
+  color: rgba(255, 255, 255, 0.5);
 }
 .name__greetings {
+  font-size: 2vw;
   font-weight: 500;
 }
