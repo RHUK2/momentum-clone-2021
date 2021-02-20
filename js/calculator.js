@@ -11,7 +11,7 @@ let showValue = "";
 
 // function
 function handleNumBtn(e) {
-  if (showValue.length >= 13) return;
+  if (showValue.length >= 10) return;
   showValue += e.target.textContent;
   result.textContent = showValue;
 }
@@ -48,7 +48,7 @@ function handleCalc(e) {
     }
     numtemp.push(answer);
     result.textContent =
-      answer.toString().length >= 13 ? answer.toExponential(4) : answer;
+      answer.toString().length >= 10 ? answer.toExponential(4) : answer;
   }
 
   if (optemp[0] === "=") {
