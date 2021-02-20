@@ -39,7 +39,7 @@ function paintToDo(text) {
   span.classList.add("todo__text");
   const toDoObj = {
     text: text,
-    id: toDosIdx,
+    id: toDosIdx
   };
   toDosIdx++;
   toDos.push(toDoObj);
